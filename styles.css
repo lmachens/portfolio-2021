@@ -8,3 +8,14 @@ body {
   background-color: black;
   color: white;
 }
+
+.about {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 50%;
+}
